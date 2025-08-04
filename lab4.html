@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lab4.css">
+</head>
+<body>
+    <!-- problem 1: Counter -->
+    <div>
+        <h1>1.Counter: </h1>
+        <h4>Count: <span id="count">0</span></h4>
+        <button id="decrementButon">Decrement</button>
+        <button id="incrementButton">Increment</button>
+    </div>
+
+    <!-- problem 2: BMI Calculator -->
+    <div>
+        <h1>2.BMI Calculator:</h1>
+        <input type="text" id="weight" placeholder="Weight (kg)">
+        <input type="text" id="height" placeholder="height (m)">
+        <button id="Calculate">Calculate</button>
+        <p id="bmiResult"></p>
+    </div>
+
+    <!-- problem 3: Color Changer -->
+    <div>
+        <h1>3.Color Changer:</h1>
+        <div id="colorBox"></div><br>
+        <input type="color" id="colorPicker">
+        <button id="changeColorButton">Change Color</button>
+    </div>
+
+
+    <!-- problem 4: Form Validation -->
+    <form action="from">
+        <h1>4.Form Validation:</h1>
+        <label for="name">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name"><br>
+        <label for="pass">Password:</label>
+        <input type="password" id="password" placeholder="Enter your password"><br>
+        <label for="conPass">Confirm Password:</label>
+        <input type="password" id="confirmPassword" placeholder="Confirm your password"><br>
+        <button type="submit" id="submitForm">Submit</button>
+    </form>
+
+    <script src="lab4.js"></script>
+</body>
+</html>
