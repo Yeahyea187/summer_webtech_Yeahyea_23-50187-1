@@ -5,8 +5,8 @@ function sumArray($arr) {
     for($i = 0; $i < count($arr); $i++) {
         $sum += $arr[$i];
     }
-    return $sum;
+    echo "Sum of the elements: ". $sum;
 }
 
-echo sumArray([1, 2, 3, 4, 5]);
+echo sumArray([5, 4, 3, 2, 1]);
 ?>
